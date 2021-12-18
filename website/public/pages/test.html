@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *,*::before,*::after{
+                box-sizing: border-box;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="holder">
+            <div style="width: 300px; height: 300px; background-color: black; margin: 8xp;" id="test">
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            window.onclick = (event)=>{
+                let initial = document.getElementById("test");
+                initial.remove();
+                let newElement = document.createElement("div");
+                newElement.id = "test";
+                newElement.style.width = "100px";
+                newElement.style.height = "50px";
+                newElement.style.backgroundColor = "yellow";
+                document.getElementById("holder").appendChild(newElement);
+            }
+        </script>
+    </body>
+</html>

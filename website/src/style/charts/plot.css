@@ -1,0 +1,7 @@
+.hoverCardPlot{
+    position: absolute;
+    padding: 8px;
+    border-radius: 8px;
+    display: none;
+    background-color: black;
+}

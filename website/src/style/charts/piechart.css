@@ -1,0 +1,20 @@
+.hoverCardPie{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 4px;
+    padding: 12px;
+    color: white;
+    font-size: 0.8em;
+}   
+
+.hoverCardBody{
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    color: white;
+}
+
+ 
+ 

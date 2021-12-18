@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'/>
+        <title>Solar</title>
+        <link rel="stylesheet" href="https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.css" type="text/css" />
+        <script src="https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.js"></script>
+        <script src="https://atlas.microsoft.com/sdk/javascript/service/2/atlas-service.min.js"></script>
+    </head>
+    <body>
+        <div id="bodyDiv">
+            <div id="page1">
+                <div id="topHead">
+                    <img src="/images/sun_logo.svg" height="100%"/>
+                </div>
+                <div id="welcomeScreen">
+                    <div>
+                        <img src="/images/sun_logo.svg" height="60px"/>
+                    </div>
+                </div>
+                <div id="mapAndInitialDetails">
+                    <div class="shadowPlaceHolder"></div>
+                    <div id="mapHolder"></div>
+                    <div id="mapInitialDetails">
+                        <div id="regionTile"></div>
+                        <div id="areaCanvasHolder"></div>
+                        <div>
+                            <div id="areaTile"></div>
+                            <div id="usageTile"></div>
+                            <div id="priceTile"></div>
+                            <div id="rateTile"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="page2">
+                <div class="row" id="row1">
+                    <div class="column" id="counterColumn">
+                        <div class="chartHolder" id="buyBackCounter"></div>
+                        <div class="chartHolder" id="co2Mitigated"></div>
+                    </div>
+                    <div class="chartHolder" id="moneySpentPlot"></div>
+                    <div class="chartHolder" id="electricityBillPlot"></div>
+                </div>
+                <div class="row" id="row2">
+                    <div class="chartHolder" id="seasonalGenerationPie"></div>
+                    <div class="chartHolder" id="solarGeneratedPlot"></div>
+                    <div class="chartHolder" id="treesCounter">
+                </div>
+            </div>
+            <div id="nextPageButton"></div>
+            <div id="generateReportButton"><u>GENERATE REPORT</u></div>
+            <div id="loadingScreen">
+                <img src="/images/loading.gif" height="70px"/>
+            </div>
+        </div>
+    </body>
+</html>

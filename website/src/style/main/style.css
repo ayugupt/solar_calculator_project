@@ -1,0 +1,147 @@
+@import './toolbar.css';
+@import './map.css';
+@import './chartsAndLayout.css';
+
+#bodyDiv{
+    height: 100vh;
+    padding: 24px;
+    background-color: white;
+    overflow-y: scroll;
+    position: fixed;
+    background-color: #f4f6f9;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#topHead{
+    height: 60px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+}
+
+#welcomeScreen{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f4f6f9;
+    z-index: 201;
+    display: flex;
+    align-items: center;
+    transition: all 1s ease-out;
+}
+
+#welcomeScreen div{
+    width: 100%; 
+    height: 60px;
+    display: flex; 
+    justify-content: center; 
+    align-items:center; 
+    transition: all 1s ease-out;
+}
+
+#mapAndInitialDetails{
+    display: flex;
+    flex: 1 0 auto;
+    position: relative;
+    overflow: hidden;
+    border-left: 1px solid rgba(0, 0, 0, 0.15);
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.shadowPlaceHolder{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    box-shadow: 0px 0px 3px 2px lightgray;
+}
+
+#mapHolder{
+    height: 100%;
+    flex: 1 1 auto;
+}
+
+#mapInitialDetails{
+    flex: 0 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 32px;
+    justify-content: space-between;
+    width: 600px;
+    background-color: white;
+}
+
+#areaCanvasHolder{
+    width: 300px;
+    height: 300px;
+    align-self: center;
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
+    margin-top: 24px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#nextPageButton{
+    position: absolute;
+    z-index: 100;
+    display: none;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+}
+
+#generateReportButton{
+    position: absolute;
+    display: none;
+    z-index: 100;
+    width: 150px;
+    height: 60px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px 1px lightgray;
+    color: blue;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.chartHolder{
+    background-color: white;
+    box-shadow: 0px 0px 3px 2px lightgray;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+
+#loadingScreen{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 150;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}

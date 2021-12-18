@@ -1,0 +1,11 @@
+.hoverCardBar{
+    position: absolute;
+    padding: 8px;
+    border-radius: 8px;
+    display: none;
+    background-color: black;
+}
+
+.hoverCardBar div{
+    color: white;
+}

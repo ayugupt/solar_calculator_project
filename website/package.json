@@ -1,0 +1,37 @@
+{
+  "name": "frt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon ./bin/www --ignore public"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-transition-group": "^4.4.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "connect-livereload": "^0.6.1",
+    "css-loader": "^6.4.0",
+    "csv-loader": "^3.0.3",
+    "html-webpack-plugin": "^5.3.2",
+    "livereload": "^0.9.3",
+    "regenerator-runtime": "^0.13.9",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-middleware": "^5.2.1",
+    "webpack-dev-server": "^4.3.1",
+    "webpack-hot-middleware": "^2.25.1"
+  }
+}
