@@ -1,10 +1,10 @@
 # Solar 
 
-#Note
+# Note
 
 This website fully functions only on Google chrome. Please use google chrome to use this website. If any content is going out of the screen, make sure to change the zoom level of your browser.
 
-#About this project
+# About this project
 
 The core idea of the project is to solve the problem of hesitancy to adopt solar power by middle-class families or small businesses for their 
 home/organisation which usually arises due to the high initial investment of solar. This is a website where users can
@@ -17,7 +17,7 @@ power generated, money saved which can push the users to take the jump and conve
 
 This repository contains both the website code and the python code for training and deploying the Global Horizontal Irradiance model.
 
-#Some Points to use the website
+# Some Points to use the website
 
 Use the first button on the purple bar to get the selection toolbar. 
 
