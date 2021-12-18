@@ -1,9 +1,11 @@
 # Solar 
 
 #Note
+
 This website fully functions only on Google chrome. Please use google chrome to use this website. If any content is going out of the screen, make sure to change the zoom level of your browser.
 
 #About this project
+
 The core idea of the project is to solve the problem of hesitancy to adopt solar power by middle-class families or small businesses for their 
 home/organisation which usually arises due to the high initial investment of solar. This is a website where users can
 select an area on the map of Delhi-NCR where they could get solar panels installed and input details like their electricity rates,
@@ -19,15 +21,16 @@ This repository contains both the website code and the python code for training 
 
 Use the first button on the purple bar to get the selection toolbar. 
 
-![Home screen](https://github.com/ayugupt/solar_calculator_project/blob/master/basic.png?raw=true)
+![Home screen](https://raw.githubusercontent.com/ayugupt/solar_calculator_project/master/images/basic.png)
 
 The first button on the selection toolbar allows one to select rectangular areas on the map and the second button allows one to click points on the map to make a 
 polygon. The polygon should be closed polygon with no intersections. 
 
-![toolbar](https://github.com/ayugupt/solar_calculator_project/blob/master/toolbar.png?raw=true)
+![toolbar](https://raw.githubusercontent.com/ayugupt/solar_calculator_project/master/images/toolbar.png)
 
 Then after making selection, click on the tick button at the bottom of the map to confirm selection.
-![selection](https://github.com/ayugupt/solar_calculator_project/blob/master/polygon.png?raw=true)
+
+![selection](https://raw.githubusercontent.com/ayugupt/solar_calculator_project/master/images/polygon.png)
 
 
 After selection, the inputs will be automatically filled. One can edit those to their liking. The "Generate report" button also becomes visible. Click that followed by the down button to view 
