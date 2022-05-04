@@ -15,6 +15,8 @@ The project also involves using machine learning to predict solar irradiance for
 This project will show users through easily readable graphs and charts how solar will compare over the years against standard electricity in terms of cost,
 power generated, money saved which can push the users to take the jump and convert to solar.
 
+The website has been developed using express for the backend, react for the frontend and webpack for bundling. The ML model was developed using the tensorflow library. The ML model was uploaded onto Azure Machine Learning which helps create an API in order to get the data from the model. 
+
 This repository contains both the website code and the python code for training and deploying the Global Horizontal Irradiance model.
 
 # Some Points to use the website
@@ -36,3 +38,6 @@ Then after making selection, click on the tick button at the bottom of the map t
 After selection, the inputs will be automatically filled. One can edit those to their liking. The "Generate report" button also becomes visible. Click that followed by the down button to view 
 the charts and graphs.
 
+![charts](https://raw.githubusercontent.com/ayugupt/solar_calculator_project/master/images/solar_charts.png)
+
+[Click Here](https://solar-host.herokuapp.com/) to go to the website.
